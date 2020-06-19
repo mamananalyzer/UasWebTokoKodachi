@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="col">
                         <label for="discat">Display Category *</label>
-                        <input type="text" class="form-control @error('discat') is-invalid @enderror" id="discat" placeholder="Power Meter, Analog Meter" name="display_kategori" value="{{ old('display_kategori')}}">
+                        <input type="text" class="form-control @error('discat') is-invalid @enderror" id="discat" placeholder="" name="display_kategori" value="{{ old('display_kategori')}}">
                         @error('discat')
                             <div class="invalid-feedback">
                                 {{ $message }}
@@ -27,7 +27,7 @@
                     </div>
                     <div class="col">
                         <label for="valcat">Value Category *</label>
-                        <input type="text" class="form-control @error('valcat') is-invalid @enderror" id="valcat" placeholder="powermeter, analogmeter" name="kategori" value="{{ old('kategori')}}">
+                        <input type="text" class="form-control @error('valcat') is-invalid @enderror" id="valcat" placeholder="" name="kategori" value="{{ old('kategori')}}">
                         @error('valcat')
                             <div class="invalid-feedback">
                                 {{ $message }}

@@ -155,7 +155,7 @@
                             echo "</ul>";
                         ?>
 
-                        <div class="card-body grey">
+                        {{-- <div class="card-body grey">
                             <div class="row">
                                 <div class="col-1">
                                     <object data="{{asset('img/download.svg')}}" type="{{asset('img/download.svg')}}">
@@ -170,7 +170,7 @@
                             <a href="{{$display->usermanual}}"><button type="button" class="btn btn-primary">User Manual</button></a>
                             <a href="{{$display->modbus}}"><button type="button" class="btn btn-primary">Modbus Map</button></a>
                             <a href="{{$display->software}}"><button type="button" class="btn btn-primary">Software</button></a>
-                        </div>
+                        </div> --}}
                 </div>
         </div>
     </div>

@@ -18,7 +18,7 @@
                 <div class="row">
                     <div class="col">
                         <label for="disbra">Display Brand *</label>
-                        <input type="text" class="form-control @error('disbra') is-invalid @enderror" id="disbra" placeholder="Power Meter, Analog Meter" name="display_brand" value="{{ old('display_brand')}}">
+                        <input type="text" class="form-control @error('disbra') is-invalid @enderror" id="disbra" placeholder="" name="display_brand" value="{{ old('display_brand')}}">
                         @error('disbra')
                             <div class="invalid-feedback">
                                 {{ $message }}
@@ -27,7 +27,7 @@
                     </div>
                     <div class="col">
                         <label for="valbra">Value Brand *</label>
-                        <input type="text" class="form-control @error('valbra') is-invalid @enderror" id="valbra" placeholder="powermeter, analogmeter" name="brand" value="{{ old('brand')}}">
+                        <input type="text" class="form-control @error('valbra') is-invalid @enderror" id="valbra" placeholder="" name="brand" value="{{ old('brand')}}">
                         @error('valbra')
                             <div class="invalid-feedback">
                                 {{ $message }}

@@ -17,7 +17,7 @@ class SendMailController extends Controller
     public function send(Request $request){
         $formInput=$request->except('picture');
 
-        // dd($request->all());
+
         $this->validate($request,[
             // 'email' => 'required',
             'name' => 'required',

@@ -22,7 +22,7 @@
     <nav class="navbarbar navbar navbar-expand-lg navbar-dark bg-blue sticky-top">
       <a class="navbar-brand" href="{{ url('/') }}">
         <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
-        Amptron Instrumindo
+        Kodachi Store
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@
         <ul class="navbar-nav navbar-right offset-md ml-5">
           <a class="nav-item nav-link pr-4" href="{{ url('/') }}">Home</a>
           <a class="nav-item nav-link pr-4" href="{{ url('/about') }}">About</a>
-          <a class="nav-item nav-link pr-4" href="{{ url('/principal') }}">Principal</a>
+          {{-- <a class="nav-item nav-link pr-4" href="{{ url('/principal') }}">Principal</a> --}}
           {{-- <a class="nav-item nav-link pr-4" href="{{ url('/contact') }}">Contact Us</a> --}}
           <a class="nav-item nav-link pr-4" href="{{ url('/product') }}">Product</a>
           <a class="nav-item nav-link pr-4" href="{{ url('/products') }}">Profile</a>
@@ -92,8 +92,8 @@
                 </object>
               </div>
               <div class="col-10">
-                <p>Komplek Rukan Taman Meruya
-                <br>Blok N-15-16, Meruya Utara, Kembangan, Jakarta Barat,
+                <p>Jl. Teluk gong
+                <br>Gang. Masda 1 Pejagalan, penjaringan jakarta utara.
                 <br>Daerah Khusus Ibukota Jakarta 11620</p>
               </div>
             </div>
@@ -104,7 +104,7 @@
                 </object>
               </div>
               <div class="col-10">
-                <p>amptron@cbn.net.id</p>
+                <p>kodachistore@gmail.com</p>
               </div>
             </div>
             <div class="row">
@@ -114,9 +114,8 @@
                 </object>
               </div>
               <div class="col-10">
-                <p>(+62-21) 585 5055
-                <br>(+62-21) 586 0826
-                <br>(+62-21) 586 0828</p>
+                <p>(+62-21) 888 7778
+                <br>(+62-21) 557 0987</p>
               </div>
             </div>
         </div>
@@ -126,8 +125,8 @@
             <blockquote class="blockquote mb-0 card-body">
                 <footer class="blockquote-footer">
                   <small class="text-muted">
-                    <cite title="Amptron Instrumindo">Fast Response for Excellent Support</cite>
-                    &copy; Amptron Instrumindo 1997 - 2020
+                    <cite title="Kodachi Store">Fast Response for Excellent Support</cite>
+                    &copy; Kodachi Store 1997 - 2020
                   </small>
                 </footer>
             </blockquote>
@@ -142,7 +141,7 @@
       </div>
       <div class="card-body text-right">
         <blockquote class="blockquote mb-0">
-          <footer class="blockquote-footer">PT. Amptron Instrumindo |<cite title="Source Title"> © Amptron Instrumindo 1997-2020</cite></footer>
+          <footer class="blockquote-footer">PT. Kodachi Store |<cite title="Source Title"> © Kodachi Store 1997-2020</cite></footer>
         </blockquote>
       </div>
     </div> --}}

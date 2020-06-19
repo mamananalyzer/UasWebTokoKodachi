@@ -30,7 +30,7 @@
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Company *</label>
-            <input type="company" name="company" class="form-control col-4" id="Company" placeholder="PT. Amptron Instrumindo" required>
+            <input type="company" name="company" class="form-control col-4" id="Company" placeholder="" required>
         </div>
         <input type="checkbox" name="checkbox" value="check" id="agree" />
         <label for="agree">I have read and agree to the Terms and Conditions and Privacy Policy</label>

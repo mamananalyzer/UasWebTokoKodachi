@@ -1,6 +1,6 @@
 @extends('layout/base')
 
-@section('title', 'Amptron Instrumindo')
+@section('title', 'Kodachi Store')
 
 @section('container')
 

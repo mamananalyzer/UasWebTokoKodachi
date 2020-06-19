@@ -14,7 +14,7 @@
                 return false;
             }">
             {{ csrf_field() }}
-            <div class="form-group">
+            {{-- <div class="form-group">
                 <label for="brand">Brand *</label>
                 <select class="custom-select custom-select-md form-control @error('brand') is-invalid @enderror" name="brand" id="brand">
                     @foreach ($brands as $brand)
@@ -26,7 +26,7 @@
                         {{ $message }}
                     </div>
                 @enderror
-            </div>
+            </div> --}}
             <div class="form-group">
                 <label for="categorie">Category *</label>
                 <select class="custom-select custom-select-md form-control @error('category') is-invalid @enderror" name="categorie" id="categorie">
@@ -42,7 +42,7 @@
             </div>
             <div class="form-group">
                 <label for="type">Type *</label>
-                <input type="text" class="form-control @error('type') is-invalid @enderror" id="type" placeholder="A2000, Analog Meter, Rish Eine+, Acuvim II" name="type" value="{{ old('type')}}">
+                <input type="text" class="form-control @error('type') is-invalid @enderror" id="type" placeholder="" name="type" value="{{ old('type')}}">
                 @error('type')
                     <div class="invalid-feedback">
                         {{ $message }}
@@ -87,7 +87,7 @@
                     </div>
                 @enderror
             </div>
-            <div class="form-group">
+            {{-- <div class="form-group">
                 <label for="datasheet">Link datasheet *</label>
                 <input type="text" class="form-control @error('datasheet') is-invalid @enderror" id="datasheet" placeholder="Link datasheet" name="datasheet" value="{{ old('datasheet')}}">
                 @error('datasheet')
@@ -122,7 +122,7 @@
                         {{ $message }}
                     </div>
                 @enderror
-            </div>
+            </div> --}}
 
             <input type="checkbox" name="checkbox" value="check" id="agree" />
             <label for="agree">I have read and agree to the Terms and Conditions and Privacy Policy</label>

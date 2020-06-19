@@ -26,21 +26,21 @@
             <header>
                 <div class="row">
                     <div class="col">
-                        <a target="_blank" href="http://amptron.my.id/">
-                            <img src="{{asset('img/aii.png')}}" width="130px" data-holder-rendered="true" />
+                        <a target="_blank" href="http://kodachi.com/">
+                            <img src="{{asset('img/kodachi.png')}}" width="130px" data-holder-rendered="true" />
                             </a>
                     </div>
                     <div class="col company-details">
                         <h2 class="name">
-                            <a target="_blank" href="http://amptron.my.id/">
-                            Amptron Instrumindo
+                            <a target="_blank" href="http://kodachi.com/">
+                            Kodachi Store
                             </a>
                         </h2>
-                        <div>Komplek Rukan Taman Meruya Blok N-15-16
-                            <br> Meruya Utara, Kembangan, Jakarta Barat
-                            <br> Daerah Khusus Ibukota Jakarta 11620</div>
-                        <div>(+62-21) 585 5055</div>
-                        <div>amptron@cbn.net.id</div>
+                        <div><p>Jl. Teluk gong
+                            <br>Gang. Masda 1 Pejagalan, penjaringan jakarta utara.
+                            <br>Daerah Khusus Ibukota Jakarta 11620</p></div>
+                        <div>(+62-21) 888 7778</div>
+                        <div>kodachistore@gmail.com</div>
                     </div>
                 </div>
             </header>
@@ -122,13 +122,13 @@
                 <div class="notices row">
                     <div class="col">
                         <div>NOTICE:</div>
-                        <div class="notice">Save this page with click button PRINT on top
+                        <div class="notice">
                             {{-- and resend email to <a href="mailto:amptron@cbn.net.id">amptron@cbn.net.id .</a> --}}
                         </div>
                         <br>
                         <div class="notice">Please Transfer to Our Account</div>
                         <div class="notice">Mandiri, Cab. Puri Kencana</div>
-                        <div class="notice">PT. Amptron Instrumindo</div>
+                        <div class="notice">Kodachi Store</div>
                         <div class="notice">ACC. No : 118.0053121.959 (IDR)</div>
                         <div class="notice">Payment Full Amount</div>
                     </div>
@@ -156,7 +156,7 @@
                 </div>
             </main>
             <footer>
-                Fast Response for Excellent Support © Amptron Instrumindo 1997 - 2020
+                Fast Response for Excellent Support © Kodachi Store - 2020
             </footer>
         </div>
         <!--DO NOT DELETE THIS div. IT is responsible for showing footer always at the bottom-->

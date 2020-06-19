@@ -18,10 +18,10 @@
             <form method="GET" action="{{ url('/products') }}" class="form-inline">
                 @if(auth()->user()->role == 'admin')
                 <a href="{{url('/products/create')}}" class="btn btn-success my-2">Add Products</a>
-                <a href="{{url('/brand')}}" class="btn btn-success my-2 ml-2">Brand</a>
+                {{-- <a href="{{url('/brand')}}" class="btn btn-success my-2 ml-2">Brand</a> --}}
                 <a href="{{url('/procategorie')}}" class="btn btn-success my-2 ml-2">Categories</a>
                 @endif
-                <a href="" class="ml-auto"><img src="{{ asset('assets/img/user.png')}}" width="44px" alt=""><span>{{ auth()->user()->name }}</span></a>
+                <a href="" class="ml-auto"><img src="{{ asset('assets/img/kodachi.png')}}" width="44px" alt=""><span>{{ auth()->user()->name }}</span></a>
                 <a href="{{ ('/logout') }}" class="btn btn-warning ml-2 mr-auto">Logout</a>
                 {{-- <input name="cari" type="search" class="form-control ml-4 ml-auto mr-2">
                 <button class="btn btn-outline-primary" type="submit">Cari</button> --}}

@@ -214,20 +214,20 @@ footer {
                     <table>
                         <tr class="row">
                             <td class="col">
-                                <a target="_blank" href="http://amptron.my.id/">
-                                    <img src="img/aii.png" width="300px" data-holder-rendered="true" />
+                                <a target="_blank" href="http://kodachi.com/">
+                                    <img src="img/kodachi.png" width="300px" data-holder-rendered="true" />
                                     </a>
                             </td>
                             <td class="col company-details">
                                 <h2 class="name">
-                                    <a target="_blank" href="http://amptron.my.id/">
-                                    Amptron Instrumindo
+                                    <a target="_blank" href="http://kodachi.com/">
+                                    Kodachi Store
                                     </a>
                                 </h2>
-                                <div>Komplek Rukan Taman Meruya Blok N-15-16
-                                    <br> Meruya Utara, Kembangan, Jakarta Barat
-                                    <br> Daerah Khusus Ibukota Jakarta 11620</div>
-                                <div>(+62-21) 585 5055, amptron@cbn.net.id</div>
+                                <div><p>Jl. Teluk gong
+                                    <br>Gang. Masda 1 Pejagalan, penjaringan jakarta utara.
+                                    <br>Daerah Khusus Ibukota Jakarta 11620</p></div>
+                                <div>(+62-21) 888 7778, kodachistore@gmail.com</div>
                             </td>
                         </tr>
                     </table>
@@ -317,13 +317,13 @@ footer {
                         <br>
                         <div class="notice">Please Transfer to Our Account</div>
                         <div class="notice">Mandiri, Cab. Puri Kencana</div>
-                        <div class="notice">PT. Amptron Instrumindo</div>
+                        <div class="notice">Kodachi Store</div>
                         <div class="notice">ACC. No : 118.0053121.959 (IDR)</div>
                         <div class="notice">Payment Full Amount</div>
                     </div>
                 </div>
                 <footer>
-                    Fast Response for Excellent Support © Amptron Instrumindo 1997 - 2020
+                    Fast Response for Excellent Support © Kodachi Store - 2020
                 </footer>
             </div>
             <!--DO NOT DELETE THIS div. IT is responsible for showing footer always at the bottom-->

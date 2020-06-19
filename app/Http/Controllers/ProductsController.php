@@ -50,15 +50,15 @@ class ProductsController extends Controller
         $formInput=$request->except('picture');
 
         $this->validate($request,[
-            'brand' => 'required',
+            // 'brand' => 'required',
             'categorie' => 'required',
             'type' => 'required|unique:products',
             'price' => 'required',
             'picture' => 'required|unique:products',
             'description' => 'required',
             'listdescription' => 'required',
-            'datasheet' => 'required',
-            'usermanual' => 'required'
+            // 'datasheet' => 'required',
+            // 'usermanual' => 'required'
         ]);
 
         $image=$request->picture;
@@ -113,15 +113,15 @@ class ProductsController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'brand' => 'required',
+            // 'brand' => 'required',
             'categorie' => 'required',
             'type' => 'required',
             'price' => 'required',
             'picture' => 'required|unique:products',
             'description' => 'required',
             'listdescription' => 'required',
-            'datasheet' => 'required',
-            'usermanual' => 'required'
+            // 'datasheet' => 'required',
+            // 'usermanual' => 'required'
         ]);
         // dd($request->all());
         $product = Product::find($id);
