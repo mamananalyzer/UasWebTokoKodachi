@@ -59,7 +59,7 @@
             ?>
 
             <div class="card-body grey">
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-1">
                         <object data="{{asset('img/download.svg')}}" type="{{asset('img/download.svg')}}">
                             <img src="{{asset('img/download.svg')}}"/>
@@ -73,7 +73,7 @@
                 <a href="{{$product->usermanual}}"><button type="button" class="btn btn-primary">User Manual</button></a>
                 <a href="{{$product->modbus}}"><button type="button" class="btn btn-primary">Modbus Map</button></a>
                 <a href="{{$product->software}}"><button type="button" class="btn btn-primary">Software</button></a>
-                <br>
+                <br> --}}
                 <br>
                 <a href="{{ $product->id }}/edit" class="btn btn-success"><i class="fa fa-edit"></i> Edit</a>
                 <form action="{{url('/products')}}/{{ $product->id }}" method="post" class="d-inline">

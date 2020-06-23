@@ -33,7 +33,7 @@
                     <h2><span class="text-muted mt-2 mb-5">{{$display->type}}</span></h2>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-warning text-light mt-4" data-toggle="modal" data-target="#exampleModalScrollable">
-                            Request a Quote!
+                            Order !
                         </button>
 
 
@@ -44,7 +44,7 @@
                             <div class="modal-dialog modal-dialog-scrollable" role="document">
                                 <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalScrollableTitle">Request a Quote!</h5>
+                                    <h5 class="modal-title" id="exampleModalScrollableTitle">Order !</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                     </button>
